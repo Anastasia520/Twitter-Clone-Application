@@ -10,8 +10,6 @@ const App = () => {
   return (
     <div className={classNames("app", {}, [theme])}>
       <Navbar />
-
-      <button onClick={handleToggleTheme}>TOGGLE THEME</button>
       <AppRouter />
     </div>
   );
