@@ -8,18 +8,18 @@ export enum AppRoutes {
 }
 
 export const RouterPaths: Record<AppRoutes, string> = {
-  [AppRoutes.MAIN]: "/",
-  [AppRoutes.ABOUT]: "/about",
+    [AppRoutes.MAIN]: "/",
+    [AppRoutes.ABOUT]: "/about",
 };
 
 export const routerConfig: Record<AppRoutes, RouteProps> = {
-  [AppRoutes.MAIN]: {
-    path: RouterPaths.main,
-    element: <MainPage />,
-  },
+    [AppRoutes.MAIN]: {
+        path: RouterPaths.main,
+        element: <MainPage />,
+    },
 
-  [AppRoutes.ABOUT]: {
-    path: RouterPaths.about,
-    element: <AboutPage />,
-  },
+    [AppRoutes.ABOUT]: {
+        path: RouterPaths.about,
+        element: <AboutPage />,
+    },
 };
