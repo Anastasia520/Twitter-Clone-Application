@@ -1,7 +1,10 @@
 {
   "Translate": "Перевод",
   "Language" : "Русский",
+  "Short language": "Ру",
   "Page not found" : "Страница не найдена",
   "Unxpected error happened": "Произошла неожиданная ошибка",
-  "Reload page": "Перезагрузить страницу"
+  "Reload page": "Перезагрузить страницу",
+  "Main page": "Главная",
+  "About page": "О сайте"
 }

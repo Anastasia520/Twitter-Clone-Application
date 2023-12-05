@@ -1,7 +1,10 @@
 {
-    "Translate":  "Translate",
-    "Language" : "English",
-    "Page not found" : "Page not found",
-    "Unxpected error happened": "Unxpected error happened",
-    "Reload page": "Reload page"
+  "Translate": "Translate",
+  "Language": "English",
+  "Short language": "En",
+  "Page not found": "Page not found",
+  "Unxpected error happened": "Unxpected error happened",
+  "Reload page": "Reload page",
+  "Main page": "Main",
+  "About page": "About"
 }
