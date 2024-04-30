@@ -1,4 +1,8 @@
-node_modules
-.vscode
 /build
+node_modules
+.idea
+.vscode/*
+!.vscode/extensions.json
 /storybook-static
+.loki/report.html
+.loki/report.json
