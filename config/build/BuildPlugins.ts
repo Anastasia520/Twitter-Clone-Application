@@ -1,11 +1,10 @@
-import path from "path";
-import webpack from "webpack";
-import HTMLWebpackPlugin from "html-webpack-plugin";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import path from 'path';
+import webpack from 'webpack';
+import HTMLWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 
-import { BuildOptions, BuildPaths } from "./types/config";
-
+import { BuildOptions, BuildPaths } from './types/config';
 
 export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPluginInstance[] {
     const plugins = [
