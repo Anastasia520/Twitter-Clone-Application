@@ -6,5 +6,9 @@
   "Unxpected error happened": "Произошла неожиданная ошибка",
   "Reload page": "Перезагрузить страницу",
   "Main page": "Главная",
-  "About page": "О сайте"
+  "About page": "О сайте",
+  "Login": "Войти",
+  "Logout": "Выйти",
+  "Enter username": "Введите имя пользователя",
+  "Enter password": "Введите пароль"
 }

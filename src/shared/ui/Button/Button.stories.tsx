@@ -37,13 +37,6 @@ Outline.args = {
     theme: ThemeButton.OUTLINE,
 };
 
-export const OutlineSizeL = Template.bind({});
-OutlineSizeL.args = {
-    children: 'Text',
-    theme: ThemeButton.OUTLINE,
-    size: SizeButton.L,
-};
-
 export const OutlineDark = Template.bind({});
 OutlineDark.args = {
     children: 'Text',
@@ -92,4 +85,11 @@ SquareSizeXl.args = {
     theme: ThemeButton.BACKGROUND_INVERTED,
     square: true,
     size: SizeButton.XL,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+    children: 'Button',
+    theme: ThemeButton.OUTLINE,
+    disabled: true,
 };
