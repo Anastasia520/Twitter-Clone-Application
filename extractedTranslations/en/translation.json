@@ -6,6 +6,7 @@
   "Enter username": "Enter username",
   "Language": "Language",
   "Login": "Login",
+  "Logout": "Logout",
   "Main": "Main",
   "Main page": "",
   "Page not found": "Page not found",
@@ -14,5 +15,9 @@
   "Unxpected error happened": "Unxpected error happened",
   "decrement": "decrement",
   "increment": "increment",
-  "Войти": "Войти"
+  "Введите username": "",
+  "Введите пароль": "",
+  "Войти": "Войти",
+  "Вы ввели неверный логин или пароль": "",
+  "Форма авторизации": ""
 }
