@@ -1,14 +1,12 @@
-# Simplified Social Network Application
-Used Feature Sliced Design as an architectural pattern
-- custom project configuration (webpack, jest, babel, eslint, i18n)
-- custom UI Kit
-- css modules
-- BundleAnalyzer
-- ErrorBoundary
+# Twitter Clone Application (in progress)
+
+- Set up custom project configuration conforming to industry best practices for accessibility and internationalization (webpack, jest, babel, eslint, i18n) 
+- Implemented FSD pattern for the best scalability and business orientation.
+- Used code splitting and memorization approaches for optimization as well as BundleAnalyzer and ErrorBoundary.
+- Implemented UI tests (Storybook + Loki), unit and integrational tests (jest, react-testing-library).
+- Implemented the GitHub CI pipeline in the project to automate the testing processes.
 
 Will be:
-- Jest tests, React-testing-Library, Loki, Cypress
-- Storybook
-- CI pipeline for tests
-- Redux, RTK query
+- E2E tests using Cypress
+- RTK query
 - and more
