@@ -1,4 +1,6 @@
 # Twitter Clone Application (in progress)
+A Twitter clone built with React, featuring user registration, post 
+creation, and commenting.
 
 - Set up custom project configuration conforming to industry best practices for accessibility and internationalization (webpack, jest, babel, eslint, i18n) 
 - Implemented FSD pattern for the best scalability and business orientation.
